@@ -1,0 +1,30 @@
+.Actions-container {
+  position: absolute;
+  width: 213px;
+  height: 50px;
+  left: 1119px;
+  top: 31px;
+  background: #157afe;
+  border-radius: 50px;
+}
+
+.Actions-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+.Actions-icon {
+  margin-right: 5px;
+}

@@ -1,0 +1,72 @@
+.table-container {
+  position: absolute;
+  width: 1305px;
+  height: 63px;
+  left: 27px;
+  top: 168px;
+  border-radius: 10px;
+}
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: -30px;
+}
+
+.custom-table th,
+.custom-table td {
+  text-align: left;
+  padding: 8px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 37px;
+}
+
+tr:nth-child(even):not(:first-child) {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  color: #9c9c9c;
+}
+tr:nth-child(odd) {
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #9c9c9c;
+}
+
+.body-checkbox {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 41px;
+  top: 186px;
+  color: black;
+}
+.tableData:nth-child(even) {
+  font-size: 18px;
+  font-weight: 500 !important;
+  color: #000000 !important;
+}
+.checkbox {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 41px;
+  top: 124px;
+
+  position: absolute;
+  left: 4%;
+  right: 4%;
+  top: 4%;
+  bottom: 4%;
+  border: 2px solid #dddddd;
+}
+
+.custom-table tr {
+  left: 27px;
+  top: 168px;
+}
+.tableData {
+  border-radius: 10px; 
+}

@@ -1,0 +1,84 @@
+.select-container {
+  position: relative;
+  width: 255px;
+  height: 50px;
+  top: 2px;
+}
+
+.select-dropdown {
+  width: 100%;
+  padding-left: 48px !important;
+  height: 100%;
+  padding: 5px 30px 5px 25px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9c9c9c;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+.select-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+}
+
+.select-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.select-arrow {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+}
+
+.tag-icon {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 10px;
+  top: 19px;
+  transform: translateY(-50%);
+}
+
+.container {
+  position: relative;
+  width: 1366px;
+  height: 699px;
+  background: #f4f4f4;
+  border-radius: 20px;
+}
+
+.mainContent {
+  position: absolute;
+  width: 1366px;
+  height: 609px;
+  left: 0px;
+  top: 90px;
+  background: #ffffff;
+}
+
+.header {
+  position: absolute;
+  width: 1305px;
+  height: 63px;
+  left: 27px;
+  top: 168px;
+  background: #f4f4f4;
+  border-radius: 10px;
+}

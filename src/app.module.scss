@@ -1,0 +1,43 @@
+.container{
+width: 1366px !important;
+background-color: #F4F4F4;
+border-radius: 10px;
+padding: 30px;
+}
+.searcpla{
+    padding-left: 32px !important;
+}
+.evenRow {
+    background-color: #dddddd;
+  }
+.tableRowData{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height:27px !important;
+    color: #000000 !important;
+}
+.containerColor  {
+    background-color: #F4F4F4;
+    border-radius: 10px;
+  }
+  .tableData:nth-child(even) {
+    font-size:18px;
+    font-weight:500 !important;
+    color:#000000 !important;
+  }
+  .checkbox {
+    width: 23px;
+    height: 15px;
+    
+  }
+  .searchBar{
+    width: 30.333333% !important;
+  }
+  .statusBar{
+    width: 21% !important;
+  }
+  .custom-table {
+    tr.roundedRow {
+      border-radius: 10px; 
+    }
+  }

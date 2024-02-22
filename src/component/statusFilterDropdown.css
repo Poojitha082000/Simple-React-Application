@@ -1,0 +1,54 @@
+.StatusFilterDropdown {
+  position: relative;
+  width: 255px;
+  height: 50px;
+  top: 2px;
+}
+
+.StatusFilterDropdown-select {
+  width: 100%;
+  height: 100%;
+  padding: 5px 30px 5px 25px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 2px solid #dddddd;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #9c9c9c;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /background-image: url("../cil_tag.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.StatusFilterDropdown-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5px;
+}
+
+.StatusFilterDropdown-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.StatusFilterDropdown-select:after {
+  content: url("./eva_chevron-down-fill.svg");
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  pointer-events: none;
+}
+.StatusFilterDropdown-select:focus {
+  outline: none;
+}
